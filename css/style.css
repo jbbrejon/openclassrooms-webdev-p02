@@ -601,8 +601,11 @@ footer {
 }
 
 /* Media queries*/
+
 /* Tablet */
-@media screen and (max-width: 992px) {
+@media all and (max-width: 992px)
+
+{
     #accomodations {
         flex-direction: column-reverse;
     }
@@ -646,9 +649,8 @@ footer {
         margin-bottom: 20px;
     }
 }
-
 /* Mobile */
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
     #page-container {
         width: 100%;
         padding-left: 0px;
